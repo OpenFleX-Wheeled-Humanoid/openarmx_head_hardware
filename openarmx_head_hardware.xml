@@ -1,0 +1,9 @@
+<library path="openarmx_head_hardware">
+  <class name="openarmx_head_hardware/OpenArmX_HeadHW"
+         type="openarmx_head_hardware::OpenArmX_HeadHW"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ros2_control hardware interface for OpenArmX head (2-DOF: yaw + pitch).
+    </description>
+  </class>
+</library>
